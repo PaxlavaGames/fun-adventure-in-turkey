@@ -34,5 +34,7 @@ Additionally, the code should follow any stylistic and architectural guidelines
 prescribed by the project. In the absence of such guidelines, mimic the styles
 and patterns in the existing code-base.
 
-[issues-path]: https://github.com/libresource/open-source-checklist/issues
-[discussions-path]: https://github.com/libresource/open-source-checklist/discussions
+You can check [Developer Documentation](DEVELOPER_DOCUMENTATION.md) to easy start with code
+
+[issues-path]: https://github.com/PaxlavaGames/fun-adventure-in-turkey/issues
+[discussions-path]: https://github.com/PaxlavaGames/fun-adventure-in-turkey/discussions
