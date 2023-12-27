@@ -1,0 +1,39 @@
+[Main points](https://github.com/libresource/open-source-checklist#main-points)
+- [x] [Open Source Project Checklist](https://github.com/libresource/open-source-checklist#open-source-project-checklist)
+- [ ] [Existing Analogues](https://github.com/libresource/open-source-checklist#existing-analogues)
+- [ ] [Good Project Name](https://github.com/libresource/open-source-checklist#good-project-name)
+- [ ] [Mission](https://github.com/libresource/open-source-checklist#mission)
+- [ ] [State What the Project Is Free](https://github.com/libresource/open-source-checklist#state-what-the-project-is-free)
+- [ ] [Features](https://github.com/libresource/open-source-checklist#features)
+- [ ] [Requirements](https://github.com/libresource/open-source-checklist#requirements)
+- [ ] [Development Status](https://github.com/libresource/open-source-checklist#development-status)
+- [ ] [Download Page](https://github.com/libresource/open-source-checklist#download-page)
+- [ ] [Version Control Access](https://github.com/libresource/open-source-checklist#version-control-access)
+- [ ] [Bug Tracker Access](https://github.com/libresource/open-source-checklist#bug-tracker-access)
+- [ ] [Communication Channels](https://github.com/libresource/open-source-checklist#communication-channels)
+- - [ ] Discussions
+- - [ ] Mailing List
+- - [ ] Real-time chat
+- - [ ] Forum
+- [ ] [Developer Guidelines](https://github.com/libresource/open-source-checklist#developer-guidelines)
+- [ ] [Documentation](https://github.com/libresource/open-source-checklist#documentation)
+- [ ] [Developer Documentation](https://github.com/libresource/open-source-checklist#developer-documentation)
+- [ ] [Availability of Documentation](https://github.com/libresource/open-source-checklist#availability-of-documentation)
+- [ ] [FAQ](https://github.com/libresource/open-source-checklist#faq)
+- [ ] [Examples Output and Screenshots](https://github.com/libresource/open-source-checklist#examples-output-and-screenshots)
+- [ ] [License](https://github.com/libresource/open-source-checklist#license)
+- [ ] [Code of Conduct](https://github.com/libresource/open-source-checklist#code-of-conduct)
+- [ ] [Security Policy](https://github.com/libresource/open-source-checklist#security-policy)
+- [ ] [Governance](https://github.com/libresource/open-source-checklist#governance)
+- [ ] [Issue templates](https://github.com/libresource/open-source-checklist#issue-templates)
+- [ ] [Pull Request Template](https://github.com/libresource/open-source-checklist#pull-request-template)
+- [ ] [Support](https://github.com/libresource/open-source-checklist#support)
+
+[CI and CD](https://github.com/libresource/open-source-checklist#ci-and-cd)
+- [ ] Tests
+- [ ] Test Coverage
+- [ ] Test Coverage 100%
+- [ ] Linters
+- [ ] Build
+- [ ] Deploy
+- [ ] [New User Greetings](https://github.com/libresource/open-source-checklist#new-user-greetings)
