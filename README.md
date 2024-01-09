@@ -1,5 +1,7 @@
 # Fun Adventure in Turkey
 
+![Fun Adventure in Turkey logo](https://github.com/PaxlavaGames/fun-adventure-in-turkey/blob/main/tt_preview_1280_640.png)
+
 Visual Novel to learn Turkish language
 
 ## Mission Statement
