@@ -1,0 +1,32 @@
+# Traning Tasks to Learn Turkish
+
+- Alphabet
+- Meeting
+-- Hello
+-- How are you
+- Say sorry
+- Say thank you
+- Say good by
+- Numbers
+-- 0-9
+-- 10-90
+-- 100
+-- 1000
+-- 1, 0.5, 0.25
+- How are you (not good, the others)
+- Verbs
+- How old are you, where are you from
+- Time
+-- future, past, now
+-- before, after, now
+-- Morning, Evening, ...
+-- Yesterday, Tomorrow, Today
+-- Year, month, day, week, ...
+- What time is it?
+- Aile
+- Good wishes
+- States 
+-- Fhisical states (want to eat, ...)
+-- Emotional states (lazy, tired, ...)
+- I, my, to me, me, you, yours, ...
+ 
