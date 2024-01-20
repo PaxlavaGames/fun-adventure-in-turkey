@@ -29,4 +29,6 @@
 -- Fhisical states (want to eat, ...)
 -- Emotional states (lazy, tired, ...)
 - I, my, to me, me, you, yours, ...
+- Colors
+- Works
  
