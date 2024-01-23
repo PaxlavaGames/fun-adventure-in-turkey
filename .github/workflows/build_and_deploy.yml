@@ -24,3 +24,4 @@ jobs:
       - name: Try to find build folder
         run: |
           ls
+          ls FunAdventureinTurkey-1.0-dists
