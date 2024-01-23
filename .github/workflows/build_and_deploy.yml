@@ -12,11 +12,12 @@ jobs:
     name: Build and Deploy to GitHub pages
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v3
-      - name: Build
-        run: |
-          echo "Build...Done"
-      - name: Deploy to GitHub pages
-        run: |
-          echo "Deploy to GitHub pages...Done"
+      - name: Build RenPy project
+        uses: ProjectAliceDev/renpy-build-action@master
+        with:
+          sdk-version: '8.1.3'
+          project-dir: '.'
+          package: 'web'
+        env:
+          SDL_AUDIODRIVER: dummy
+          SDL_VIDEODRIVER: dummy
