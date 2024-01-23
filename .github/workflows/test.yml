@@ -2,7 +2,7 @@ name: Test
 
 on:
   workflow_run:
-    workflows: ["Lint"]
+    workflows: ["Run tests"]
     types:
       - completed
 
