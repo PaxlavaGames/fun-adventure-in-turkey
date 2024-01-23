@@ -8,13 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v3
+    - name: Lint RenPy project
+      uses: ProjectAliceDev/renpy-lint-action@master
       with:
-        python-version: '3.10'
-    - name: Install dependencies
-      run: |
-        echo "Install Dependencies..."
-    - name: Analysing the code
-      run: |
-        echo "Lint...Done"
+        sdk-version: '8.1.3'
+        project-dir: '.'
+    env:
+        SDL_AUDIODRIVER: dummy
+        SDL_VIDEODRIVER: dummy
