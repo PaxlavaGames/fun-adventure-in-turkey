@@ -1,0 +1,22 @@
+name: Build and deploy to GitHub pages
+
+on:
+  workflow_run:
+    workflows: ["Run tests", "Lint"]
+    # branches: ["main"]
+    types:
+      - completed
+
+jobs:
+  build_and_deploy:
+    name: Build and Deploy to GitHub pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - name: Build
+        run: |
+          echo "Build...Done"
+      - name: Deploy to GitHub pages
+        run: |
+          echo "Deploy to GitHub pages...Done"
