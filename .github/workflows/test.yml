@@ -1,7 +1,10 @@
 name: Run tests
 
 on:
-  push:
+    workflow_run:
+      workflows: ["Lint"]
+      types:
+        - completed
 
 jobs:
   tests:

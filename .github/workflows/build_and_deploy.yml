@@ -2,7 +2,7 @@ name: Build and deploy to GitHub pages
 
 on:
   workflow_run:
-    workflows: ["Run tests", "Lint"]
+    workflows: ["Run tests"]
     # branches: ["main"]
     types:
       - completed
