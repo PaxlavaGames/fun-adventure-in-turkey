@@ -21,3 +21,6 @@ jobs:
         env:
           SDL_AUDIODRIVER: dummy
           SDL_VIDEODRIVER: dummy
+      - name: Try to find build folder
+        run: |
+          ls
