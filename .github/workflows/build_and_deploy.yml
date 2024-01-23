@@ -1,11 +1,11 @@
 name: Build and deploy to GitHub pages
 
 on:
-  workflow_run:
-    workflows: ["Run tests"]
-    branches: ["*"]
-    types:
-      - completed
+    workflow_run:
+      workflows: ["Test"]
+      # branches: ["main"]
+      types:
+        - completed
 
 jobs:
   build_and_deploy:

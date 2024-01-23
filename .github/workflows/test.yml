@@ -1,11 +1,10 @@
-name: Run tests
+name: Test
 
 on:
-    workflow_run:
-      workflows: ["Lint"]
-      branches: ["*"]
-      types:
-        - completed
+  workflow_run:
+    workflows: ["Lint"]
+    types:
+      - completed
 
 jobs:
   tests:
