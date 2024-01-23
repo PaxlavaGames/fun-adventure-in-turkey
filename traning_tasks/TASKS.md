@@ -22,6 +22,7 @@
 -- Morning, Evening, ...
 -- Yesterday, Tomorrow, Today
 -- Year, month, day, week, ...
+-- When? (When will you come, what time will you come, ...)
 - What time is it?
 - Aile
 - Good wishes
@@ -31,4 +32,4 @@
 - I, my, to me, me, you, yours, ...
 - Colors
 - Works
- 
+- Antonims (fast-slov, dry-wet, ...)
