@@ -33,3 +33,5 @@
 - Colors
 - Works
 - Antonims (fast-slov, dry-wet, ...)
+- Family statuses (devorsed, married, ...)
+- Times (2 past, 1 present, 1 future for A1)
