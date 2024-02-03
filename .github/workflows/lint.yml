@@ -1,4 +1,4 @@
-name: Lint RenPy
+name: Lint
 
 on:
   push:
