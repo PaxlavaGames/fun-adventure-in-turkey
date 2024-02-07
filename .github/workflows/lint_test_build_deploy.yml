@@ -3,6 +3,15 @@ name: Lint and Test and Build and Deploy
 on:
   push:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,6 +26,12 @@ jobs:
       uses: PaxlavaGames/renpy-lint@v0.4.0
     - name: Create Web Build
       uses: PaxlavaGames/renpy-web-build@v0.1.2
-    - name: Check build
-      run: |
-        ls ./web_build
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: './web_build'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
