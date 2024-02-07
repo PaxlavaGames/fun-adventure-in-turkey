@@ -141,3 +141,4 @@ game/tl/None/common.rpymc
 
 # vscode files
 .vscode/
+.idea/

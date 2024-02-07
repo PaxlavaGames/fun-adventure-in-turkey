@@ -1,0 +1,22 @@
+name: Lint and Test and Build and Deploy
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install RenPy
+      uses: PaxlavaGames/renpy-install@v0.3.0
+      with:
+        version: "8.2.0"
+        download_web: "yes"
+    - name: Lint RenPy
+      uses: PaxlavaGames/renpy-lint@v0.4.0
+    - name: Create Web Build
+      uses: PaxlavaGames/renpy-web-build@v0.1.2
+    - name: Check build
+      run: |
+        ls ./web_build
