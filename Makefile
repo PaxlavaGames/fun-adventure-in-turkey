@@ -1,0 +1,2 @@
+renpy:
+	../renpy.sh

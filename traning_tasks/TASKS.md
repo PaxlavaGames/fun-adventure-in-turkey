@@ -40,3 +40,6 @@
 - months (January, ...)
 - seasons (winter, ...)
 - cases (who, whom, where, from, ...)
+- organs and body
+- illnesses
+- times (2 past, 1 present, 1 future) with who, time, verb, negation 
