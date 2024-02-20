@@ -1,21 +1,11 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
+﻿define a = Character("Admin")
 
 label start:
+    $ DEBUG = True
+    if DEBUG:
+        # Debug mode
+        # Jump to debug this label
+        jump play_or_learn
 
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
-    return
+    # Production mode
+    jump play_or_learn

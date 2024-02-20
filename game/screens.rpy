@@ -1605,3 +1605,29 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+### My screens ================================================================
+
+screen start_learning():
+    style_prefix "start_learning"
+    modal True
+    vbox:
+        textbutton _("Yes. I want to learn how to play in Visual Novels") action Jump('learning')
+        textbutton _("No. I want to start my journey right now (skip learning)") action Jump('beginning')             
+
+style start_learning_vbox is vbox
+style start_learning_button is button
+style start_learning_text is button_text
+
+style start_learning_vbox:
+    xalign 0.5
+    ypos 405
+    yanchor 0.5
+
+    spacing gui.choice_spacing
+
+style start_learning_button is default:
+    properties gui.button_properties("choice_button")
+
+style start_learning_button_text is default:
+    properties gui.button_text_properties("choice_button")
