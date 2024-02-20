@@ -1,11 +1,11 @@
 ﻿define a = Character("Admin")
 
 label start:
-    $ DEBUG = True
+    $ DEBUG = False
     if DEBUG:
         # Debug mode
         # Jump to debug this label
-        jump play_or_learn
+        jump end_story
 
     # Production mode
     jump play_or_learn
