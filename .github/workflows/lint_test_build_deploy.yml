@@ -1,7 +1,6 @@
 name: Lint and Test and Build and Deploy
 
-on:
-  push:
+on:  [push, workflow_dispatch]
 
 permissions:
   contents: read
